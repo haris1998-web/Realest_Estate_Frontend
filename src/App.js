@@ -24,7 +24,7 @@ const App = () => {
                     <Route exact path='/listing/:id' element={<ListingDetail />}/>
                     <Route exact path='/login' element={<SignIn />}/>
                     <Route exact path='/signup' element={<SignUp />}/>
-                    <Route element={<NotFound/>}/>
+                    <Route element={<NotFound />}/>
                 </Routes>
             </Layout>
         </Router>
