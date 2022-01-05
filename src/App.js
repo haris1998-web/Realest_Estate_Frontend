@@ -17,14 +17,14 @@ const App = () => {
         <Router>
             <Layout>
                 <Routes>
-                    <Route exact path='/' element={ <Home/> }/>
-                    <Route exact path='/about' element={<About/>} />
-                    <Route exact path='/contact' element={<Contact/>}/>
-                    <Route exact path='/listings' element={<Listings/>}/>
-                    <Route exact path='/listing/:id' element={<ListingDetail/>}/>
-                    <Route exact path='/login' element={<SignIn/>}/>
-                    <Route exact path='/signup' element={<SignUp/>}/>
-                    <Route element={<NotFound/>}/>
+                    <Route exact path='/' element={ <Home /> }/>
+                    <Route exact path='/about' element={<About />} />
+                    <Route exact path='/contact' element={<Contact />}/>
+                    <Route exact path='/listings' element={<Listings />}/>
+                    <Route exact path='/listing/:id' element={<ListingDetail />}/>
+                    <Route exact path='/login' element={<SignIn />}/>
+                    <Route exact path='/signup' element={<SignUp />}/>
+                    <Route element={<NotFound />}/>
                 </Routes>
             </Layout>
         </Router>
