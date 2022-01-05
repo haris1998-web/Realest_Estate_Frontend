@@ -1,9 +1,12 @@
 import React from 'react'
 
 const listings = () => {
-    <div>
-        listings
-    </div>
+    return (
+        <div>
+            listings
+        </div>
+    )
+    
 }
 
 export default listings;
